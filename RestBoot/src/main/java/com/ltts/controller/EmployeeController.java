@@ -21,7 +21,7 @@ import com.ltts.model.Employee;
 import com.ltts.repository.EmployeeRepository;
 
 @CrossOrigin(origins = "http://localhost:3000")
-@RestController
+@RestController 
 @RequestMapping("/employee/")
 public class EmployeeController {
  
